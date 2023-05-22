@@ -11,9 +11,9 @@ const EmoticonList = () => {
             setEmoticons(storedEmoticons);
         } else {
             const defaultEmoticons = [
-                { id: 1, name: 'Grinning Face', count: 0 },
-                { id: 2, name: 'Smiling Face with Sunglasses', count: 0 },
-                { id: 3, name: 'Face with Rolling Eyes', count: 0 },
+                { id: 1, name: '😀', count: 0 },
+                { id: 2, name: '😂', count: 0 },
+                { id: 3, name: '🥲', count: 0 },
             ];
             setEmoticons(defaultEmoticons);
             localStorage.setItem('emoticons', JSON.stringify(defaultEmoticons));
